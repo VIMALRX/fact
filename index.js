@@ -6,4 +6,5 @@ function fact(n){
     return n* fact(n-1);
     }
 }
-console.log(fact(5))
+let s=prompt("enter the value");
+console.log(fact(s));
